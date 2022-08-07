@@ -1,0 +1,4 @@
+- @Autowired
+- @Primary
+- @Qualifier
+- Scope of Bean
