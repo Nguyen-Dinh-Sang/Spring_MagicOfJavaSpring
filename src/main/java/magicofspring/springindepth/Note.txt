@@ -1,9 +1,13 @@
 - @Autowired
 - @Primary
 - @Qualifier
-- Scope of Bean
+- Scope of Bean:
     - @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
     - @Scope(ConfigurableBeanFactory.SCOPE_SINGLETON)
     - Default - Singleton in Spring is one instance per application context in same JVM.
     - By Gang of Four definition, have one instance of that specific class in same JVM.
-- ComponentScan
+
+- @ComponentScan
+- Bean Lifecycle:
+    - @PostConstruct: as soon as the bean is created, PostConstruct would be called.
+    - @PreDestroy: the bean instance is being removed from container, method would be called.
