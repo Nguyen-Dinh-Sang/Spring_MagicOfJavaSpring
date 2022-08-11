@@ -6,3 +6,4 @@
     - @Scope(ConfigurableBeanFactory.SCOPE_SINGLETON)
     - Default - Singleton in Spring is one instance per application context in same JVM.
     - By Gang of Four definition, have one instance of that specific class in same JVM.
+- ComponentScan
