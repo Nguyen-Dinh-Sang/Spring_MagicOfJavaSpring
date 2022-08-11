@@ -1,4 +1,4 @@
-package magicofspring.springindepth;
+package magicofspring.springindepth.basic;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;

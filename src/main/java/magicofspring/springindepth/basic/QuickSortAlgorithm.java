@@ -1,4 +1,4 @@
-package magicofspring.springindepth;
+package magicofspring.springindepth.basic;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
