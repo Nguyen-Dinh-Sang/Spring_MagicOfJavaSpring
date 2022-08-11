@@ -11,3 +11,8 @@
 - Bean Lifecycle:
     - @PostConstruct: as soon as the bean is created, PostConstruct would be called.
     - @PreDestroy: the bean instance is being removed from container, method would be called.
+
+- Java EE CDI: Container and Dependency Injection -> how to do Dependency Injection:
+    - @Inject (@Autowired)
+    - @Named (@Component, @Qualifier)
+    - @Singleton (Defines a scope of Singleton)

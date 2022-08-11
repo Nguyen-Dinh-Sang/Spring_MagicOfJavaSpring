@@ -26,6 +26,7 @@ public class ScopeApplication {
 
 		LOGGER.info("{}", personDAO2);
 		LOGGER.info("{}", personDAO2.getJdbcConnection());
+		LOGGER.info("{}", personDAO2.getJdbcConnection());
 	}
 
 }
