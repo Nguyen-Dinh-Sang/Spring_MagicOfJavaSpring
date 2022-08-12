@@ -13,6 +13,9 @@
     - @PreDestroy: the bean instance is being removed from container, method would be called.
 
 - Java EE CDI: Container and Dependency Injection -> how to do Dependency Injection:
-    - @Inject (@Autowired)
-    - @Named (@Component, @Qualifier)
-    - @Singleton (Defines a scope of Singleton)
+    - @Inject (@Autowired).
+    - @Named (@Component, @Qualifier).
+    - @Singleton (Defines a scope of Singleton).
+
+- Removing Spring Boot:
+    - Removing the dependency on spring-boot- starter.
