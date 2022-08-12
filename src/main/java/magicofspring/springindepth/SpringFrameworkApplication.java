@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 public class SpringFrameworkApplication {
 
 	public static void main(String[] args) {
-		ApplicationContext context = new AnnotationConfigApplicationContext(SpringFrameworkApplication.class);
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(SpringFrameworkApplication.class);
 		getBeanContext(context);
 	}
 
@@ -20,7 +20,7 @@ public class SpringFrameworkApplication {
 		BinarySearchImpl2 binarySearch2 = context.getBean(BinarySearchImpl2.class);
 		System.out.println(binarySearch);
 		System.out.println(binarySearch2);
-		binarySearch.binarySearch(new int[] {1, 2, 3}, 5);
+		System.out.println(binarySearch.binarySearch(new int[] {1, 2, 3}, 5));
 	}
 
 }
