@@ -19,3 +19,6 @@
 
 - Removing Spring Boot:
     - Removing the dependency on spring-boot- starter.
+
+- Close Application Context.
+- Logback is an implementation for slf4j

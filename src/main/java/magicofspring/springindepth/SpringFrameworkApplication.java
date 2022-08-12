@@ -11,8 +11,15 @@ import org.springframework.context.annotation.Configuration;
 public class SpringFrameworkApplication {
 
 	public static void main(String[] args) {
-		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(SpringFrameworkApplication.class);
-		getBeanContext(context);
+//		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(SpringFrameworkApplication.class);
+//		getBeanContext(context);
+//		context.close();
+
+		//=>
+
+		try (AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(SpringFrameworkApplication.class)) {
+			getBeanContext(context);
+		}
 	}
 
 	private static void getBeanContext(ApplicationContext context) {
