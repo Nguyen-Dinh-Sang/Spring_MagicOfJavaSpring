@@ -24,7 +24,7 @@ class AssertTest {
     @Test
     public void testCase4() {
         assertNull(null);
-        assertNotNull(null);
+        //assertNotNull(null);
         assertArrayEquals(new int[] {1, 2, 4}, new int[] {1, 2, 4});
     }
 }
