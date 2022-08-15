@@ -22,3 +22,8 @@
 
 - Close Application Context.
 - Logback is an implementation for slf4j
+
+- XML config: context
+    - Define the context schema.
+    - Define shortcut name.
+    - Define schema location for context.
