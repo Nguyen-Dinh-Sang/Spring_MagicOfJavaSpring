@@ -1,0 +1,7 @@
+- Unit Testing ?
+    - When build that application and deploy and then test the application then that becomes testing of the entire deployable. This is called Screen Testing.
+    - Unit Testing is testing our specific piece of code or method or a specific class.
+    - In class have many method, Unit testing is writing individual tests for each of these methods.
+
+- JUnit?
+    - Junit is a framework which will help you call this method and check whether the output is as expected.
