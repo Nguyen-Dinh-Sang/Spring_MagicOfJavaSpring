@@ -27,3 +27,5 @@
     - Define the context schema.
     - Define shortcut name.
     - Define schema location for context.
+
+- Read values from external properties file.
