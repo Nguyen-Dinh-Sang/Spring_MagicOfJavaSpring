@@ -3,4 +3,6 @@
     - Provides a number of endpoints: beans, health, metrics, mappings.
     - http://localhost:8080/actuator
 
+- Embedded Server.
 - Spring Boot Devtools.
+- AOP is the best approach for implementing cross-cutting concerns.
