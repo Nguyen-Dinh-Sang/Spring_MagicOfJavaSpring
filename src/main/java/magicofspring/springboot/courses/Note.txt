@@ -2,3 +2,5 @@
     - Monitor and manage application in production.
     - Provides a number of endpoints: beans, health, metrics, mappings.
     - http://localhost:8080/actuator
+
+- Spring Boot Devtools.

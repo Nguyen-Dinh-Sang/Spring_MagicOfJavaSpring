@@ -21,5 +21,4 @@ public class CourseController {
     public Course getAllCourseDetails() {
         return new Course(1, "Learn Microservices", "in28minutes");
     }
-
 }
