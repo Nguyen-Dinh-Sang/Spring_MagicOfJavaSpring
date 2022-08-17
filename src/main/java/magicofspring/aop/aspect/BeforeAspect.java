@@ -16,7 +16,7 @@ public class BeforeAspect {
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
     // What kind of method calls I would intercept
-    @Before("execution(* magicofspring.aop.business.*.*(..))")
+    @Before("magicofspring.aop.aspect.CommonJoinPointConfig.dataLayerExecution()")
     public void before(JoinPoint joinPoint) {
         logger.info("Check for user access");
         logger.info("Intercepted Method Calls {}", joinPoint);
