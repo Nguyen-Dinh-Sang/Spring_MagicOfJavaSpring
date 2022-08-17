@@ -1,0 +1,7 @@
+- AOP:
+    - execution(* PACKAGE.*.*(..)):
+        - *: any return type.
+        - *: any class in a specific package.
+        - *: any method in class.
+        - ..: arguments on humans.
+    - @Before():
