@@ -1,13 +1,13 @@
-package magicofspring;
-
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
-
-@SpringBootTest
-class SpringMagicOfJavaSpringApplicationTests {
-
-	@Test
-	void contextLoads() {
-	}
-
-}
+//package magicofspring;
+//
+//import org.junit.jupiter.api.Test;
+//import org.springframework.boot.test.context.SpringBootTest;
+//
+//@SpringBootTest
+//class SpringMagicOfJavaSpringApplicationTests {
+//
+//	@Test
+//	void contextLoads() {
+//	}
+//
+//}
