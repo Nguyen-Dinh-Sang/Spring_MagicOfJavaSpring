@@ -24,4 +24,12 @@ public class MethodExecutionCalculationAspect {
         long timeTaken = System.currentTimeMillis() - startTime;
         logger.info("Time Taken by {} is {}", joinPoint, timeTaken);
     }
+
+    @Around("magicofspring.aop.aspect.CommonJoinPointConfig.trackTimeAnnotation()")
+    public void trackTiemImpl(ProceedingJoinPoint joinPoint) throws Throwable {
+        long startTime = System.currentTimeMillis();
+        joinPoint.proceed();
+        long timeTaken = System.currentTimeMillis() - startTime;
+        logger.info("Time Taken by Annotation {} is {}", joinPoint, timeTaken);
+    }
 }

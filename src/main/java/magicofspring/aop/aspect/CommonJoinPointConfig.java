@@ -20,4 +20,8 @@ public class CommonJoinPointConfig {
 
     @Pointcut("within(magicofspring.aop.data..*)")
     public void dataLayerExecutionWithWithin() {}
+
+    @Pointcut("@annotation(magicofspring.aop.TrackTime)")
+    public void trackTimeAnnotation() {}
+
 }
