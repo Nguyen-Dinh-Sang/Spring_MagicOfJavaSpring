@@ -3,3 +3,6 @@
     - http://localhost:8080/h2-console
 
 - JdbcTemplate:
+
+- HQL: Hibernate query language.
+- JPQL: Java persistence query language.

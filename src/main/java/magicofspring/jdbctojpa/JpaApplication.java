@@ -29,10 +29,11 @@ public class JpaApplication implements CommandLineRunner {
         logger.info("User id 10001 -> {}", personJpaRepository.findById(10001));
         logger.info("Inserting id 10004 -> {}", personJpaRepository.insert(new Person(10004, "Tara", "Berlin", new Date())));
         logger.info("Update 10003 - {}", personJpaRepository.update(new Person(10003, "Pieter", "Utrecht", new Date())));
+        personJpaRepository.deleteById(10002);
+
 
         /*
         logger.info("All users -> {}", personJpaRepository.findAll());
-        logger.info("Deleting id 10002 -> No of row deleted - {}", personJpaRepository.deleteById(10002));
 
          */
     }
