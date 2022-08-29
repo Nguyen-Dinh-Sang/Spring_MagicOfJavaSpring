@@ -30,11 +30,6 @@ public class JpaApplication implements CommandLineRunner {
         logger.info("Inserting id 10004 -> {}", personJpaRepository.insert(new Person(10004, "Tara", "Berlin", new Date())));
         logger.info("Update 10003 - {}", personJpaRepository.update(new Person(10003, "Pieter", "Utrecht", new Date())));
         personJpaRepository.deleteById(10002);
-
-
-        /*
         logger.info("All users -> {}", personJpaRepository.findAll());
-
-         */
     }
 }
