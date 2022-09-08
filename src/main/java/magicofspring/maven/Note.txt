@@ -1,0 +1,30 @@
+- POM: Project Object Model
+- Maven Build Life Cycle:
+    - Validate: validates the project.
+    - Compile:
+        - Compiling the source code.
+        - Compiling the test code.
+
+    - Test: where all the unit tests in your project are run.
+        - If all the unit tests are successful, it would go to the package state.
+
+    - Package: where it would actually build a jar.
+    - Integration Test: If you have any integration tests.
+    - Verify.
+    - Install: basically taking your artifact which is generated and putting it to a local repository.
+    - Deploy: where you take the generated artifact and deploy it to a remote maven repository.
+
+    - nvm clean install: actually execute all the steps in the lifecycle up to install.
+
+- How does Maven Work?
+    - Local repository: on your system,
+    - Remote Maven repository: kind of central repository, on the Internet, where all the versions of different dependencies
+        are store.
+
+- Important Maven Commands:
+    - help:effective settings: you would see that all the settings which are used by the maven repositories.
+    - help:effective pom: discussed earlier on maven prompt also have a parent form.
+    - dependency:tree: show all the dependencies that are coming into your project.
+    - dependency:sources: what would happen is all the source code for all the dependencies wherever it is available,
+        would be downloaded to your local machine.
+    - compile --debug: in debug mode, it would print you a lot more content than it would usually do.
