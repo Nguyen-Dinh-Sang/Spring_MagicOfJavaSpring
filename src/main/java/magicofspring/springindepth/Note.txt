@@ -29,3 +29,19 @@
     - Define schema location for context.
 
 - Read values from external properties file.
+
+@Primary.
+nếu 2 class cùng impl 1 interface thì khi @Autowwired
+nình có thể chỉ chích xác bằng các đặt tên giống
+tên class impl.
+
+@Qualifier("name")
+đặt tên cho impl khi @Autowrited thì thêm @Qualifier
+để chỉ ra class pl tương ứng.
+nên đặt tên và sửa dụng nó tường mình hơn.
+
+Bean Scope:
+- In Spring, by default, any bean is a singleton.
+- Prototype: get different instances of same bean.
+@Scope(""): chỉ định các bean được tạo ra và sử dụng, nhưng nên làm theo kiểu bên dưới.
+@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
